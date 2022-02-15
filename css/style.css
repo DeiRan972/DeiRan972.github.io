@@ -1,0 +1,85 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.Profile{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  box-shadow:rgba(0,0,0,0.4) 0px 5px 20px;
+}
+.Profile img{
+  border-radius: 50%;
+}
+.Profile h1{
+  color: #575F7D
+}
+.Profile a{
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color:#6B72E1;
+  padding: 10px;
+  border-radius: 5px 5px;
+}
+.Profile p{
+  color: #6B72E1;
+}
+.reseaux{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 20px 20px;
+  box-shadow:rgba(0,0,0,0.4)  0px 5px 20px;
+}
+.reseaux h2{
+  color: #7ECE90;
+  font-size: 20px;
+}
+.reseaux li{
+  display: inline-block;
+  list-style: none;
+}
+.reseaux a{
+  background-color: #6B72E1;
+  color: white;
+  padding: 7px;
+  border-radius:20px 20px;
+  font-size: 1rem;
+}
+
+/*Responsive*/
+
+@media (max-width: 960px){
+.reseaux{
+  width: 700px;
+}
+.Profile{
+  width: 700px;
+}
+}
+@media (max-width: 720px){
+  .reseaux{
+    width: 500px;
+  }
+  .Profile{
+    width: 500px;
+  }
+}
+@media (max-width: 540px){
+  .reseaux{
+    width: 300px;
+  }
+  .Profile{
+    width: 300px;
+  }
+}
